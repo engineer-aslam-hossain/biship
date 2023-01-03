@@ -1,0 +1,130 @@
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 100px;
+  margin-top: 5rem;
+
+  .gridContent {
+    img {
+      margin-bottom: 1rem;
+    }
+    h6 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #262b36;
+      margin-bottom: 0.2rem;
+    }
+    p.address {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      span {
+        font-weight: 700;
+        margin-right: 0.2rem;
+      }
+    }
+  }
+
+  .linkGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+
+    a {
+      text-decoration: none;
+      line-height: 36px;
+      color: #606b86;
+      &:hover {
+        color: #2053d1;
+        font-weight: 500;
+      }
+    }
+
+    .social {
+      display: flex;
+      gap: 24px;
+    }
+  }
+}
+
+.footerGrid.hebrew {
+  text-align: right;
+  .gridContent:last-child {
+    order: -4;
+    text-align: start;
+  }
+  .gridContent:nth-child(3) {
+    order: -3;
+  }
+  .gridContent:nth-child(2) {
+    order: -2;
+  }
+}
+
+.copyRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  margin-top: 120px;
+}
+
+@media (max-width: 1024px) {
+  .footerGrid {
+    grid-gap: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .footerGrid {
+    text-align: center;
+    margin-top: 0;
+    // grid-template-rows: auto;
+
+    .gridContent {
+      margin-bottom: 4rem;
+      font-size: 20px;
+    }
+
+    .linkGrid {
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 0.5rem;
+
+      .social {
+        min-width: 150px;
+      }
+    }
+  }
+  .copyRight {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .footerGrid.hebrew {
+    text-align: center;
+    .gridContent:last-child {
+      order: 4;
+      text-align: center;
+    }
+    .gridContent:nth-child(3) {
+      order: 3;
+    }
+    .gridContent:nth-child(2) {
+      order: 2;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .footerGrid {
+    .gridContent {
+      padding: 0 1rem;
+    }
+  }
+}

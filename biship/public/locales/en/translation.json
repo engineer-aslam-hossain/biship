@@ -1,0 +1,120 @@
+{
+  "pages": [
+    {
+      "label": "Home",
+      "link": "home"
+    },
+    {
+      "label": "Features",
+      "link": "features"
+    },
+    {
+      "label": "Services",
+      "link": "services"
+    },
+    {
+      "label": "Get in touch",
+      "link": "get-in-touch"
+    }
+  ],
+
+  "hero_title": "Imagine your <span className=\"web\"> home smart enough <span className=\"color\"> to take care </span> of itself. </span> <span className=\"mobile\"> home smart enough <span className=\"color\"> to take care</span> of itself. </span>",
+  "hero_details": "Turn your home into a smarthome today with a simple & affordable upgrade. Discover the upgrade that automates home maintenance.",
+  "contact_us": "Contact Us",
+  "feature_top_text": "Every day your home faces countless potential threats. Every day you face countless potential headaches. A small problem can become a major disaster. Early warning signs exist but often you can't hear or see them.",
+  "featuresItems": [
+    {
+      "icon": "/assets/icons/ico-threat.svg",
+      "title": "Automatic Threat Detection",
+      "details": "Siphome reacts the moment your equipment fails, alerting you to the problem."
+    },
+    {
+      "icon": "/assets/icons/ico-threat1.svg",
+      "title": "Smart Diagnostics",
+      "details": "See exactly what is malfunctioning and compare your maintenance options on the same screen."
+    },
+    {
+      "icon": "/assets/icons/ico-threat2.svg",
+      "title": "Disaster Prevention",
+      "details": "Predictive analytics lets you see what needs maintenance before it fails."
+    },
+    {
+      "icon": "/assets/icons/ico-threat3.svg",
+      "title": "24/7 Service​",
+      "details": "Siphome monitors your critical systems 24/7 so you can enjoy peace of mind."
+    }
+  ],
+  "features_top": "FEATURES",
+  "features_title": "Meet BISHIP",
+  "features_subtitle": "The most comprehensive smart solution to home maintenance. All it takes is a simple and affordable sensor installation by one of our Siphome certified technicians.",
+  "update_top": "UPDATE",
+  "update_title": "It starts with an upgrade",
+  "updateItemsList": [
+    {
+      "icon": "/assets/icons/update-icon.svg",
+      "title": "Monitor",
+      "details": "Make your standard systems smart with Siphome. A simple installation or integration and we can start to monitor 24/7 to make sure your home is Siphome."
+    },
+    {
+      "icon": "/assets/icons/update-icon1.svg",
+      "title": "Maintenance",
+      "details": "Siphome helps you maintain your home. The HomeHealth Record ensures you have the right information at the right time, and if you aren’t able to do the maintenance yourself, we can connect you to a service pro to help."
+    },
+    {
+      "icon": "/assets/icons/update-icon2.svg",
+      "title": "Repair",
+      "details": "Siphome empowers you with smart notifications so you can make repairs before they become problems. Notifications provide diagnostics and recommended next actions so you know what to do and have the same information as your service pro."
+    },
+    {
+      "icon": "/assets/icons/update-icon3.svg",
+      "title": "Replace",
+      "details": "Improve your home over time. Build your next-gen smart home with Siphome’s advice along the way."
+    }
+  ],
+  "service_top": "Services",
+  "service_title": "Bring more systems into the network",
+  "service_subtitle": "Find out just how far Siphome can lead your home into next-gen intelligence.",
+  "service_list": [
+    {
+      "icon": "/assets/icons/service-icon.svg",
+      "title": "Mobile Command Management"
+    },
+    {
+      "icon": "/assets/icons/service-icon1.svg",
+      "title": "Equipment Optimizer"
+    },
+    {
+      "icon": "/assets/icons/service-icon2.svg",
+      "title": "Lifecycle Prediction"
+    },
+    {
+      "icon": "/assets/icons/service-icon3.svg",
+      "title": "Troubleshooting Guide"
+    },
+    {
+      "icon": "/assets/icons/service-icon4.svg",
+      "title": "Energy Optimizer"
+    },
+    {
+      "icon": "/assets/icons/service-icon5.svg",
+      "title": "Smart Diagnostics"
+    },
+    {
+      "icon": "/assets/icons/service-icon6.svg",
+      "title": "Vital Equipment Scan"
+    },
+    {
+      "icon": "/assets/icons/service-icon7.svg",
+      "title": "Smart Alerts"
+    },
+    {
+      "icon": "/assets/icons/service-icon8.svg",
+      "title": "Preventative Maintenance"
+    }
+  ],
+  "get_in_touch_top": "GET IN TOUCH",
+  "get_in_touch_title": "Fill in a few key details, and our team will get back to you.",
+  "get_in_touch_lable1": "Your name (required)",
+  "get_in_touch_lable2": "Your phone number ()required",
+  "get_in_touch_button": "Get in touch"
+}

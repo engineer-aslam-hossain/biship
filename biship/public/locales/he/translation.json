@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "label": "השאר פרטים",
+      "link": "get-in-touch"
+    },
+    {
+      "label": "שירותים",
+      "link": "services"
+    },
+    {
+      "label": "תכונות",
+      "link": "features"
+    },
+    {
+      "label": "בית",
+      "link": "home"
+    }
+  ],
+  "hero_title": "דמיינו את  הבית שלכם חכם מספיק כדי <span className=\"color\">לטפל בעצמו</span>",
+  "hero_details": "לחי חשיגד לחיעשדג ליעשדג חיעשדג חיעשדג חיעשדג חיעשדג חיעשדג חיעשדגמ חשידג שחדיגש דגחישדג שחידג שדגחישד גחישגד חשידג שדגחישד גחישדג לשחדג שדחגי.",
+  "contact_us": "צור קשר",
+  "feature_top_text": "לחילחיש לשחדגי שדלגחש דגלשחדג שלדגח שדגלחשדג שלדחגיש דגלחשידג לשדחג שדלגחינשדצגמ שדלחגנ שדלגחישד גלשחדגנ שדלגחנשד גלשחדג שדלחגיש דגלחשנדג שלדחגיש דגלחשידג שלדחג שדגלחשד גלנדשג לחשנדשדגנ",
+  "featuresItems": [
+    {
+      "icon": "/assets/icons/ico-threat.svg",
+      "title": "שירות 24/7",
+      "details": "לחילחש לשחדיג שדלגחש דגלחי לשחדיג לחשדיג שדגלחשדג שדגלח"
+    },
+    {
+      "icon": "/assets/icons/ico-threat1.svg",
+      "title": "שירות 24/7",
+      "details": "לחילחש לשחדיג שדלגחש דגלחי לשחדיג לחשדיג שדגלחשדג שדגלח"
+    },
+    {
+      "icon": "/assets/icons/ico-threat2.svg",
+      "title": "שירות 24/7",
+      "details": "לחילחש לשחדיג שדלגחש דגלחי לשחדיג לחשדיג שדגלחשדג שדגלח"
+    },
+    {
+      "icon": "/assets/icons/ico-threat3.svg",
+      "title": "שירות 24/7​",
+      "details": "לחילחש לשחדיג שדלגחש דגלחי לשחדיג לחשדיג שדגלחשדג שדגלח"
+    }
+  ],
+  "features_top": "תכונות",
+  "features_title": "תכירו את BISHIP",
+  "features_subtitle": "לחידגלכח לדחגכ דלחכג דלכחד גכלחדג כלדחגכ דלגחכנ דגלכחנד גכלחדנ גכלחנד לגכחנ דגכ לדחגכ לדחגנכ דגמ כלחד גכלדחנגכל דגכלח דלגכחנלדחגכ גדלח כלדח כגלדנגלח",
+  "update_top": "שיפור",
+  "update_title": "זה מתחיל עם שיפור רציני",
+  "updateItemsList": [
+    {
+      "icon": "/assets/icons/update-icon.svg",
+      "title": "Monitor",
+      "details": "Make your standard systems smart with Siphome. A simple installation or integration and we can start to monitor 24/7 to make sure your home is Siphome."
+    },
+    {
+      "icon": "/assets/icons/update-icon1.svg",
+      "title": "Maintenance",
+      "details": "Siphome helps you maintain your home. The HomeHealth Record ensures you have the right information at the right time, and if you aren’t able to do the maintenance yourself, we can connect you to a service pro to help."
+    },
+    {
+      "icon": "/assets/icons/update-icon2.svg",
+      "title": "Repair",
+      "details": "Siphome empowers you with smart notifications so you can make repairs before they become problems. Notifications provide diagnostics and recommended next actions so you know what to do and have the same information as your service pro."
+    },
+    {
+      "icon": "/assets/icons/update-icon3.svg",
+      "title": "Replace",
+      "details": "Improve your home over time. Build your next-gen smart home with Siphome’s advice along the way."
+    }
+  ],
+  "service_top": "שירותים",
+  "service_title": "הכנס יותר מערכות לרשת",
+  "service_subtitle": "חיעשנ חישדג שדיג שחדיג שדחגי שחדגיהש דגחי שדגחי שדחגי שחדיג שחדיג חש דגחילח",
+  "service_list": [
+    {
+      "icon": "/assets/icons/service-icon.svg",
+      "title": "לחישלדגחי לשחידגי לינשדג"
+    },
+    {
+      "icon": "/assets/icons/service-icon1.svg",
+      "title": "לחישד גלחנש דגלחנ"
+    },
+    {
+      "icon": "/assets/icons/service-icon2.svg",
+      "title": "לחי לחד גכלח גכדגח"
+    },
+    {
+      "icon": "/assets/icons/service-icon3.svg",
+      "title": "לחנ דלחגנכ דלגחכנ"
+    },
+    {
+      "icon": "/assets/icons/service-icon4.svg",
+      "title": "לחנ לח דגלכחנ"
+    },
+    {
+      "icon": "/assets/icons/service-icon5.svg",
+      "title": "לח לדחנג כלדחגכ"
+    },
+    {
+      "icon": "/assets/icons/service-icon6.svg",
+      "title": "לחנ דלגחכנ דלגכחננד"
+    },
+    {
+      "icon": "/assets/icons/service-icon7.svg",
+      "title": "חי לדחגכנ לדגכחנ"
+    },
+    {
+      "icon": "/assets/icons/service-icon8.svg",
+      "title": "לחי לדחגנכ דלחגכ ד"
+    }
+  ],
+  "get_in_touch_top": "השאר פרטים",
+  "get_in_touch_title": "חלי לחדגכ לחד גכלח דלחגכ דלגכ דלגכחנ דלגכחנ דלגחכנ",
+  "get_in_touch_lable1": "שם",
+  "get_in_touch_lable2": "טלפון",
+  "get_in_touch_button": "השאר פרטים"
+}

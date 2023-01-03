@@ -1,0 +1,131 @@
+.sectionGetInTouch {
+  padding: 7rem 0;
+}
+
+.getInTouchGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(412px, 1fr));
+  grid-gap: 200px;
+
+  .gridContent {
+    flex: 1;
+    max-width: 380px;
+
+    h6 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #2053d1;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      color: #262b36;
+      margin-bottom: 24px;
+      line-height: 64px;
+    }
+
+    input {
+      height: 3rem;
+      width: 340px;
+      padding: 0 1rem;
+      margin: 1rem 0;
+      background: #ffffff;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+    }
+
+    label {
+      line-height: 24px;
+      color: #262b36;
+      //   margin-bottom: 1rem;
+      font-size: 15px;
+    }
+
+    button {
+      background: #2681b4;
+      border-radius: 4px;
+      width: 124px;
+      height: 48px;
+      border: none;
+      color: white;
+      margin-top: 2rem;
+      font-weight: 500;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.getInTouchGrid.hebrew {
+  .gridContent:last-child {
+    order: -1;
+  }
+  .gridContent {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    h2 {
+      max-width: 420px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .getInTouchGrid {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .getInTouchGrid {
+    justify-content: center;
+
+    .gridContent {
+      text-align: center;
+
+      input {
+        width: 80%;
+      }
+
+      h2 {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+      }
+
+      img {
+        width: 309px;
+        height: 272px;
+      }
+    }
+  }
+
+  .getInTouchGrid.hebrew {
+    .gridContent:last-child {
+      order: 1;
+    }
+    .gridContent {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: right;
+      h2 {
+        max-width: 420px;
+      }
+    }
+  }
+}

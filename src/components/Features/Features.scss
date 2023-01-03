@@ -1,0 +1,193 @@
+.sectionFeatures {
+  background-image: url("../../assets/images/feature-top-bg.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  margin-bottom: 15rem;
+}
+
+.featureTop {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  p {
+    width: 80%;
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 32px;
+    color: #606b86;
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
+.featureTop.hebrew {
+  justify-content: flex-end;
+  p {
+    text-align: right;
+  }
+}
+
+.sectionFeatures.hebrew {
+  background-position: left top;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 4rem;
+  align-items: center;
+
+  // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  // grid-auto-rows: 1fr;
+
+  .imageContainer {
+    img {
+      width: 456px;
+      height: 456px;
+    }
+  }
+
+  .bishipMeet {
+    h6 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #2053d1;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 51px;
+      /* identical to box height */
+      color: #262b36;
+      margin-bottom: 24px;
+    }
+
+    p.des {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      /* or 156% */
+      font-family: "Inter";
+      color: #606b86;
+      margin-bottom: 50px;
+    }
+    .meetupGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+      grid-template-rows: auto;
+      flex-wrap: wrap;
+
+      h3 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-family: "Inter";
+        font-size: 18px;
+        line-height: 21px;
+        color: #262b36;
+        font-weight: 500;
+      }
+      p {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        /* or 160% */
+
+        color: #606b86;
+      }
+    }
+  }
+}
+
+.featuresGrid.hebrew {
+  grid-template-columns: 2fr 1fr;
+  text-align: right;
+
+  .bishipMeet {
+    order: -1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .featuresGrid {
+    grid-template-columns: auto;
+
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sectionFeatures {
+    background-image: none;
+  }
+  .featuresGrid {
+    grid-template-columns: auto;
+
+    .bishipMeet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+
+      h2 {
+        font-size: 32px;
+      }
+
+      p.des {
+        margin-bottom: 90px;
+      }
+
+      .meetupGrid {
+        grid-template-columns: auto;
+        grid-gap: 98px;
+        h3 {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .imageContainer {
+      img {
+        width: 274px;
+        height: 274px;
+      }
+    }
+  }
+
+  .featureTop {
+    p {
+      text-align: center;
+      width: 92%;
+      font-size: 18px;
+      margin: 0 auto;
+    }
+  }
+
+  .featureTop.hebrew p {
+    text-align: center;
+  }
+
+  .featuresGrid.hebrew {
+    grid-template-columns: auto;
+
+    .bishipMeet {
+      order: 1;
+    }
+  }
+}

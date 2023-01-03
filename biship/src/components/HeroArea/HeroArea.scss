@@ -1,0 +1,176 @@
+.heroAreaSection {
+  //   height: 100vh;
+  //   max-height: 840px;
+  //   background-image: url("../../assets/images/background.png");
+  //   background-position: left top;
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  height: 840px;
+
+  .container {
+    height: 840px;
+    width: 100%;
+    max-width: 1440px;
+    height: 840px;
+    background-image: url("../../assets/images/background.png");
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+  .container.hebrew {
+    background-image: url("../../assets/images/hebrew_hero_bg.png");
+  }
+}
+
+.heroAreaContentBody {
+  height: 840px;
+  max-width: 1150px;
+  max-height: 840px;
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+
+  .content {
+    max-width: 600px;
+    width: 100%;
+
+    h1 {
+      color: white;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 74px;
+      margin-bottom: 36px;
+      span {
+        font-weight: 700;
+      }
+      .web {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      span.color {
+        color: #3c9ade;
+      }
+    }
+    p {
+      color: white;
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 60px;
+    }
+
+    .contactUs {
+      text-decoration: none;
+      background: #2681b4;
+      border-radius: 4px;
+      color: white;
+      width: 124px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+
+  //   .heroImageContainer {
+  //     position: relative;
+  //     height: 100%;
+
+  //     .heroImg1 {
+  //       height: 540px;
+  //       width: 440px;
+  //       position: absolute;
+  //       left: 9rem;
+  //       top: 140px;
+
+  //       img {
+  //         height: 540px;
+  //         width: 440px;
+  //       }
+  //     }
+  //     .heroImg2 {
+  //       height: 256px;
+  //       width: 400px;
+  //       position: absolute;
+  //       bottom: 5rem;
+  //       right: -9rem;
+
+  //       img {
+  //         height: 256px;
+  //         width: 400px;
+  //       }
+  //     }
+  //   }
+}
+
+.heroAreaContentBody.hebrew {
+  justify-content: flex-end;
+  text-align: end;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 767px) {
+  .heroAreaSection {
+    .container {
+      background-image: url("../../assets/images/background.png");
+    }
+    margin-bottom: 100px;
+  }
+  .heroAreaContentBody {
+    padding: 0 20px;
+    .content {
+      // margin-top: 188px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-size: 42px;
+        text-align: center;
+        line-height: 55px;
+        .web {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+  .heroAreaContentBody.hebrew {
+    .content {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .heroAreaSection {
+    .container {
+      background-image: url("../../assets/images/hero_bg.png");
+    }
+    margin-bottom: 100px;
+
+    .container.hebrew {
+      background-image: url("../../assets/images/hebrew_hero_mobile_bg.png");
+    }
+  }
+}

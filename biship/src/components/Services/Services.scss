@@ -1,0 +1,147 @@
+.sectionServices {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.0001) -9.97%,
+    #ecf0f7 100%
+  );
+  padding-bottom: 5rem;
+
+  .sliderDiv {
+    display: none;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h6 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #2053d1;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 51px;
+      /* identical to box height */
+      color: #262b36;
+      margin-bottom: 24px;
+    }
+
+    p.des {
+      font-size: 18px;
+      line-height: 28px;
+      /* or 156% */
+      font-family: "Inter";
+      color: #606b86;
+      margin-bottom: 50px;
+    }
+
+    .serviceIlustration {
+      margin: 3rem 0;
+      margin-bottom: 128px;
+      img {
+        width: 680px;
+        height: 600px;
+      }
+    }
+
+    .servicesGrid {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      grid-gap: 20px;
+
+      .gridContent {
+        background-color: white;
+        border-radius: 16px;
+        padding: 1rem 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        filter: drop-shadow(4px 4px 24px rgba(0, 0, 0, 0.08));
+
+        span {
+          font-size: 18px;
+          line-height: 32px;
+          /* identical to box height, or 178% */
+          color: #262b36;
+          font-weight: 500;
+        }
+      }
+      .gridContent.hebrew {
+        flex-direction: row-reverse;
+        img {
+          transform: scaleX(-1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionServices {
+    .services {
+      text-align: center;
+
+      .servicesGrid {
+        display: none;
+      }
+
+      h2 {
+        font-size: 32px;
+        line-height: 39px;
+      }
+
+      p.des {
+        width: 90%;
+      }
+
+      .serviceIlustration {
+        margin-bottom: 0;
+        img {
+          width: 337px;
+          height: 300px;
+        }
+      }
+    }
+
+    // slider
+
+    .sliderDiv {
+      display: block;
+      width: 100%;
+
+      .mySwiper {
+        padding: 3rem 0;
+      }
+
+      .gridContent {
+        background-color: white;
+        border-radius: 16px;
+        padding: 1rem 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        filter: drop-shadow(4px 4px 24px rgba(0, 0, 0, 0.08));
+
+        span {
+          font-size: 18px;
+          line-height: 32px;
+          /* identical to box height, or 178% */
+          color: #262b36;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

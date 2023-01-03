@@ -1,0 +1,333 @@
+.sectionUpdate {
+  display: flex;
+  justify-content: center;
+
+  .updateContainer {
+    margin-bottom: 8rem;
+    background-image: url("../../assets/images/update_bg_1170.png");
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1170px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .updateContainer.hebrew {
+    background-image: url("../../assets/images/hebrew_update_bg_1170.png");
+  }
+
+  .updateGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 1150px;
+    // grid-gap: 14rem;
+
+    .gridContentLeft {
+      margin-top: 2rem;
+      max-width: 330px;
+
+      h6 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: #2053d1;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 51px;
+        /* identical to box height */
+        color: #262b36;
+        margin-bottom: 24px;
+      }
+
+      .imgContainer {
+        position: relative;
+        margin-top: 4rem;
+
+        img.updateImg1 {
+          position: absolute;
+          left: -10rem;
+          top: 17rem;
+          z-index: 100;
+        }
+        img.updateImg2 {
+          position: absolute;
+          right: -16rem;
+        }
+        img.updateImg3 {
+          position: absolute;
+          left: -10rem;
+        }
+      }
+    }
+    .gridContentRight {
+      //   padding: 4rem;
+      padding-top: 6rem;
+      padding-left: 6rem;
+
+      .content {
+        max-width: 424px;
+        color: white;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 3rem;
+
+        img {
+          width: 60px;
+        }
+
+        h5 {
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 500;
+          margin-top: 18px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-weight: 300;
+          font-family: "Inter", sans-serif;
+          font-style: normal;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .updateGrid.hebrew {
+    .gridContentLeft {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      h2 {
+        max-width: 320px;
+        text-align: right;
+      }
+
+      .imgContainer {
+        img.updateImg1 {
+          transform: scaleX(-1);
+          right: -9rem;
+          left: auto;
+        }
+        img.updateImg2 {
+          transform: scaleX(-1);
+          right: 14rem;
+          top: 4rem;
+        }
+        img.updateImg3 {
+          transform: scaleX(-1);
+          right: -9rem;
+          left: auto;
+        }
+      }
+    }
+    .gridContentRight {
+      order: -1;
+      text-align: right;
+
+      .content {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .sectionUpdate {
+    .updateContainer {
+      background-image: none;
+      background-position: bottom right;
+      height: auto;
+    }
+    .updateGrid {
+      grid-template-columns: auto;
+
+      .gridContentLeft {
+        margin: 0 auto;
+
+        .imgContainer {
+          height: 36rem;
+
+          img.updateImg1 {
+            position: absolute;
+            left: -15rem;
+            top: 17rem;
+            z-index: 100;
+          }
+          img.updateImg2 {
+            position: absolute;
+            right: -10rem;
+          }
+          img.updateImg3 {
+            position: absolute;
+            left: -16rem;
+          }
+        }
+      }
+
+      .gridContentRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../../assets/images/update_bg_1170.png");
+        background-position: right top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 1170px;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionUpdate {
+    overflow: hidden;
+    .updateContainer {
+      background-image: none;
+      background-position: bottom right;
+      height: auto;
+    }
+    .updateGrid {
+      grid-template-columns: auto;
+
+      .gridContentLeft {
+        text-align: center;
+
+        h2 {
+          font-size: 32px;
+          line-height: 39px;
+        }
+
+        .imgContainer {
+          height: 15rem;
+          img.updateImg1 {
+            left: -2rem;
+            width: 247px;
+            height: 225px;
+            top: 9.8rem;
+          }
+          img.updateImg2 {
+            right: -2.5rem;
+            width: 210px;
+            height: 247px;
+          }
+          img.updateImg3 {
+            left: -3rem;
+            width: 191px;
+            height: 135px;
+          }
+        }
+      }
+
+      .gridContentRight {
+        height: 1573px;
+        // background-image: url("../../assets/images/update_bg_1170_mobile.png");
+        // background-repeat: no-repeat;
+        padding-top: 4rem;
+        background-size: cover;
+
+        .content {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          gap: 0;
+          padding: 0 3rem;
+          margin-bottom: 6rem;
+
+          h5 {
+            margin-top: 24px;
+            margin-bottom: 15px;
+          }
+          p {
+            font-size: 13px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+    .updateGrid.hebrew {
+      .gridContentLeft {
+        max-width: 100%;
+        display: block;
+
+        h2 {
+          max-width: 320px;
+          text-align: center;
+        }
+
+        .imgContainer {
+          height: 15rem;
+          img.updateImg1 {
+            left: -2rem;
+            width: 247px;
+            height: 225px;
+            top: 9.8rem;
+            transform: scaleX(1);
+          }
+          img.updateImg2 {
+            right: -3.5rem;
+            width: 210px;
+            height: 247px;
+            transform: scaleX(1);
+          }
+          img.updateImg3 {
+            left: -3rem;
+            width: 191px;
+            height: 135px;
+            transform: scaleX(1);
+          }
+        }
+      }
+      .gridContentRight {
+        order: 1;
+        text-align: center;
+
+        .content {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .sectionUpdate {
+    overflow: hidden;
+    .updateContainer {
+      background-image: none;
+      background-position: bottom right;
+      height: auto;
+    }
+    .updateGrid {
+      .gridContentRight {
+        background-image: url("../../assets/images/update_bg_mobile.png");
+        background-repeat: no-repeat;
+      }
+      .gridContentRight.hebrew {
+        background-image: url("../../assets/images/hebrew_update_bg_mobile.png");
+        background-repeat: no-repeat;
+        order: 1;
+
+        .content {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
